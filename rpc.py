@@ -2,7 +2,7 @@ from pypresence import Presence
 import handler
 import time
 
-client_id = "482150417455775755"
+client_id = "807964106673225748"
 rich_presence = Presence(client_id)
 
 def connect():
@@ -21,7 +21,7 @@ def connect_loop(retries=0):
     else:
         update_loop()
 
-print("Started Adobe RPC")
+print("Started Adobe RPC - pcislocked edited")
 
 def update_loop():
     start_time = int(time.time())
@@ -32,10 +32,10 @@ def update_loop():
                                  small_image=rpc_data['small_image'],
                                  large_image=rpc_data['large_image'],
                                  large_text=rpc_data['large_text'],
-                                 small_text=rpc_data['small_text'],
+                                 small_text="pcislocked's AdobeRPC",
                                  details=rpc_data['details'],
                                  start=start_time)
-            time.sleep(15)
+            time.sleep(5)
     except:
         rich_presence.clear()
         print("Run Adobe/Discord app")
@@ -46,3 +46,4 @@ try:
     connect_loop()
 except KeyboardInterrupt:
     print("Stopped Adobe RPC")
+    quit()

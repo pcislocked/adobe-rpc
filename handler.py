@@ -1,6 +1,4 @@
 import sys
-
-
 def get_rpc_update():
     if sys.platform in ['Windows', 'win32', 'cygwin']:
         try:
@@ -19,11 +17,26 @@ def get_rpc_update():
             return rpc_update
 
         except ImportError:
-            print("Make sure you have pywin32 installed, for more info read README.md")
+            print("Make sure you have pywin32 installed")
 
     elif sys.platform in ['Mac', 'darwin', 'os2', 'os2emx']:
-        print("Macos support is currently not available.")
-        sys.exit(0)
+        print("you are such a fucking loser")
+        try:
+            app_info = "i am using mac"
+            app_title = "im loser lol"
+            app_state = "go use a proper computer"
+
+            rpc_update = {'state': app_state,
+                          'small_image': "photoshop_small",
+                          'large_image': "photoshop_large",
+                          'large_text': "imagine using macbook",
+                          'small_text': "go use a proper computer",
+                          'details': "i am a loser cuz i use mac"}
+            return rpc_update
+        except ImportError:
+            print("you disingenius dense motherfucker")
+    else:
+        print("stupid arch user lmao")
 
 
 def exception_handler(exception, future):
