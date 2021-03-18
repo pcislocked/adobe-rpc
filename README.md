@@ -1,7 +1,7 @@
 # smokes' adoberpc, edited by pcislocked
 improvements:
 
-Media encoder support added. It just says "Rendering something." Premiere pro also says "editing something" so i wont leak anything xd
+Media encoder support added. It just says "Rendering something." you can easily hide the project name by other apps by simply editing meta.json and changing splitBy as "   " and splitIndex as 0 for the respective application.
 
 My own api key inserted, so media encoder has a proper icon.
 
