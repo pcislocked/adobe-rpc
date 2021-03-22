@@ -21,7 +21,7 @@
 		"processName": "adobe media encoder.exe",
 		"splitBy": " ",
 		"splitIndex": 0,
-		"largeImageKey": "ame_small",
+		"largeImageKey": "ame_large",
 		"smallImageKey": "ame_Small",
 		"largeText": "Adobe Media Encoder",
 		"smallText": "Rendering"
