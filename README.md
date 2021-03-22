@@ -7,6 +7,8 @@ My own api key inserted, so media encoder has a proper icon.
 
 some other stuff as well but i dont remember cuz this files were local for a LONG time.
 
+All pull requests at the original repo was added(Thanks to NotMyLyfe, Qwinty and khaled-Senpai!)
+
 And, the biggest one.. Mac support, sort of.
 
 # How to use
