@@ -22,7 +22,7 @@
 		"splitBy": " ",
 		"splitIndex": 0,
 		"largeImageKey": "ame_large",
-		"smallImageKey": "ame_Small",
+		"smallImageKey": "ame_small",
 		"largeText": "Adobe Media Encoder",
 		"smallText": "Rendering"
 	},
