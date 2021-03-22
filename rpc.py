@@ -34,7 +34,7 @@ def update_loop():
                                  large_text=rpc_data['large_text'],
                                  small_text="pcislocked's AdobeRPC",
                                  details=rpc_data['details'],
-                                 start=start_time)
+                                 start=rpc_data['create_time'])
             time.sleep(5)
     except:
         rich_presence.clear()
