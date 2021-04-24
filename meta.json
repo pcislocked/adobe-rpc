@@ -1,55 +1,55 @@
 [{
+		"processName": "afterfx.exe",
+		"splitBy": " - ",
+		"splitIndex": 1,
+		"largeImageKey": "aftereffects",
+		"smallImageKey": "ccloud",
+		"largeText": "Adobe After Effects",
+		"smallText": "Editing"
+	},
+	{
 		"processName": "photoshop.exe",
 		"splitBy": " @ ",
 		"splitIndex": 0,
-		"largeImageKey": "photoshop_large",
-		"smallImageKey": "photoshop_small",
+		"largeImageKey": "photoshop",
+		"smallImageKey": "ccloud",
 		"largeText": "Adobe Photoshop",
 		"smallText": "Editing"
 
 	},
 	{
-		"processName": "adobe premiere pro.exe",
-		"splitBy": " ",
-		"splitIndex": 0,
-		"largeImageKey": "premierepro_large",
-		"smallImageKey": "premierepro_small",
-		"largeText": "Adobe Premiere Pro",
-		"smallText": "Editing"
-	},
-	{
 		"processName": "adobe media encoder.exe",
-		"splitBy": " ",
+		"splitBy": "  ",
 		"splitIndex": 0,
-		"largeImageKey": "ame_large",
-		"smallImageKey": "ame_small",
+		"largeImageKey": "ame",
+		"smallImageKey": "ccloud",
 		"largeText": "Adobe Media Encoder",
 		"smallText": "Rendering"
+	},
+		{
+		"processName": "adobe audition.exe",
+		"splitBy": "  ",
+		"splitIndex": 0,
+		"largeImageKey": "audition",
+		"smallImageKey": "ccloud",
+		"largeText": "Adobe Audition",
+		"smallText": "Editing"
 	},
 	{
 		"processName": "illustrator.exe",
 		"splitBy": " @ ",
 		"splitIndex": 0,
-		"largeImageKey": "illustrator_large",
-		"smallImageKey": "illustrator_small",
+		"largeImageKey": "illustrator",
+		"smallImageKey": "ccloud",
 		"largeText": "Adobe Illustrator",
-		"smallText": "Editing"
-	},
-	{
-		"processName": "afterfx.exe",
-		"splitBy": " - ",
-		"splitIndex": 1,
-		"largeImageKey": "aftereffects_large",
-		"smallImageKey": "aftereffects_small",
-		"largeText": "Adobe After Effects",
 		"smallText": "Editing"
 	},
 	{
 		"processName": "acrobat.exe",
 		"splitBy": " - ",
 		"splitIndex": 0,
-		"largeImageKey": "acrobat_large",
-		"smallImageKey": "acrobat_small",
+		"largeImageKey": "acrobat",
+		"smallImageKey": "ccloud",
 		"largeText": "Adobe Acrobat",
 		"smallText": "Reading"
 	},
@@ -57,9 +57,18 @@
 		"processName": "indesign.exe",
 		"splitBy": " @ ",
 		"splitIndex": 0,
-		"largeImageKey": "indesign_large",
-		"smallImageKey": "indesign_small",
+		"largeImageKey": "indesign",
+		"smallImageKey": "ccloud",
 		"largeText": "Adobe InDesign",
+		"smallText": "Editing"
+	},
+		{
+		"processName": "adobe premiere pro.exe",
+		"splitBy": "   ",
+		"splitIndex": 0,
+		"largeImageKey": "premierepro",
+		"smallImageKey": "ccloud",
+		"largeText": "Adobe Premiere Pro",
 		"smallText": "Editing"
 	}
 ]
