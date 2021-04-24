@@ -14,7 +14,7 @@ def connect_loop(retries=0):
     try:
         connect()
     except:
-        print("Error connecting to Discord")
+        print("Where is Discord?")
         time.sleep(10)
         retries += 1
         connect_loop(retries)
@@ -35,15 +35,15 @@ def update_loop():
                                  small_text="pcislocked's AdobeRPC",
                                  details=rpc_data['details'],
                                  start=rpc_data['create_time'])
-            time.sleep(5)
+            time.sleep(15) #Reason: https://discord.com/developers/docs/rich-presence/how-to#updating-presence
     except:
         rich_presence.clear()
-        print("Run Adobe/Discord app")
-        time.sleep(5)
+        print("Exception: I can't find Adobe(maybe?)")
+        time.sleep(2)
         update_loop()
 
 try:
     connect_loop()
 except KeyboardInterrupt:
-    print("Stopped Adobe RPC")
+    print("Adobe RPC is gone 🦀")
     quit()
